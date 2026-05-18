@@ -1,0 +1,29 @@
+[2026-05-18T06:27:11.445+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-18T06:27:11.457+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: simple_example_dag.run_bash_command manual__2026-05-18T06:27:04.452481+00:00 [queued]>
+[2026-05-18T06:27:11.465+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: simple_example_dag.run_bash_command manual__2026-05-18T06:27:04.452481+00:00 [queued]>
+[2026-05-18T06:27:11.465+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-05-18T06:27:11.488+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): run_bash_command> on 2026-05-18 06:27:04.452481+00:00
+[2026-05-18T06:27:11.492+0000] {standard_task_runner.py:72} INFO - Started process 9282 to run task
+[2026-05-18T06:27:11.498+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'simple_example_dag', 'run_bash_command', 'manual__2026-05-18T06:27:04.452481+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/simple_dag.py', '--cfg-path', '/tmp/tmpxn2o2_q7']
+[2026-05-18T06:27:11.499+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask run_bash_command
+[2026-05-18T06:27:11.555+0000] {task_command.py:467} INFO - Running <TaskInstance: simple_example_dag.run_bash_command manual__2026-05-18T06:27:04.452481+00:00 [running]> on host cs-370341157647-default
+[2026-05-18T06:27:11.667+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='simple_example_dag' AIRFLOW_CTX_TASK_ID='run_bash_command' AIRFLOW_CTX_EXECUTION_DATE='2026-05-18T06:27:04.452481+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-18T06:27:04.452481+00:00'
+[2026-05-18T06:27:11.671+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2026-05-18T06:27:11.672+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2026-05-18T06:27:11.673+0000] {logging_mixin.py:190} INFO - Current task name:run_bash_command state:running start_date:2026-05-18 06:27:11.457968+00:00
+[2026-05-18T06:27:11.673+0000] {logging_mixin.py:190} INFO - Dag name:simple_example_dag and current dag run status:running
+[2026-05-18T06:27:11.674+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-05-18T06:27:11.676+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-05-18T06:27:11.678+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', "echo 'Hello from the Bash Operator!'"]
+[2026-05-18T06:27:11.698+0000] {subprocess.py:99} INFO - Output:
+[2026-05-18T06:27:11.700+0000] {subprocess.py:106} INFO - Hello from the Bash Operator!
+[2026-05-18T06:27:11.701+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-05-18T06:27:11.745+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-05-18T06:27:11.746+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=simple_example_dag, task_id=run_bash_command, run_id=manual__2026-05-18T06:27:04.452481+00:00, execution_date=20260518T062704, start_date=20260518T062711, end_date=20260518T062711
+[2026-05-18T06:27:11.769+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2026-05-18T06:27:11.770+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2026-05-18T06:27:11.771+0000] {logging_mixin.py:190} INFO - Dag name:simple_example_dag queued_at:2026-05-18 06:27:04.489706+00:00
+[2026-05-18T06:27:11.771+0000] {logging_mixin.py:190} INFO - Task hostname:cs-370341157647-default operator:BashOperator
+[2026-05-18T06:27:11.792+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-18T06:27:11.812+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-18T06:27:11.821+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

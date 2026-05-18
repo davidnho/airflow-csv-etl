@@ -1,0 +1,6 @@
+order_id,customer,total_amount,country
+1,John,100,USA
+2,Mary,250,Canada
+3,Steve,300,USA
+4,Ana,150,Philippines
+5,Chris,400,USA

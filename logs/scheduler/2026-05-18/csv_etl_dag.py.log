@@ -1,0 +1,288 @@
+[2026-05-18T06:35:14.131+0000] {processor.py:186} INFO - Started process (PID=10324) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:35:14.133+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:35:14.134+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:35:14.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:35:14.141+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:35:14.139+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:35:14.141+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:35:14.169+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.046 seconds
+[2026-05-18T06:35:54.523+0000] {processor.py:186} INFO - Started process (PID=10423) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:35:54.530+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:35:54.533+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:35:54.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:35:54.539+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:35:54.538+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:35:54.540+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:35:54.569+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.054 seconds
+[2026-05-18T06:36:26.001+0000] {processor.py:186} INFO - Started process (PID=10519) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:36:26.004+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:36:26.006+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:36:26.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:36:26.012+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:36:26.010+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:36:26.013+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:36:26.040+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.047 seconds
+[2026-05-18T06:36:56.126+0000] {processor.py:186} INFO - Started process (PID=10660) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:36:56.127+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:36:56.129+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:36:56.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:36:56.135+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:36:56.133+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:36:56.135+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:36:56.165+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.047 seconds
+[2026-05-18T06:37:27.478+0000] {processor.py:186} INFO - Started process (PID=10852) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:37:27.480+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:37:27.483+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:37:27.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:37:27.490+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:37:27.488+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:37:27.491+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:37:27.561+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.094 seconds
+[2026-05-18T06:38:01.159+0000] {processor.py:186} INFO - Started process (PID=10955) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:38:01.162+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:38:01.164+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:38:01.164+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:38:01.170+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:38:01.168+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:38:01.170+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:38:01.200+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.049 seconds
+[2026-05-18T06:38:33.697+0000] {processor.py:186} INFO - Started process (PID=11068) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:38:33.700+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:38:33.702+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:38:33.701+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:38:33.707+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:38:33.705+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:38:33.708+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:38:33.736+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.046 seconds
+[2026-05-18T06:39:05.149+0000] {processor.py:186} INFO - Started process (PID=11233) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:39:05.151+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:39:05.152+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:39:05.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:39:05.158+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:39:05.156+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:39:05.159+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:39:05.192+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.051 seconds
+[2026-05-18T06:39:37.991+0000] {processor.py:186} INFO - Started process (PID=11293) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:39:37.994+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:39:37.996+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:39:37.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:39:38.004+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:39:38.001+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:39:38.005+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:39:38.036+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.053 seconds
+[2026-05-18T06:40:11.742+0000] {processor.py:186} INFO - Started process (PID=11470) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:40:11.744+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:40:11.746+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:40:11.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:40:11.754+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:40:11.751+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:40:11.755+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:40:11.786+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.056 seconds
+[2026-05-18T06:40:48.959+0000] {processor.py:186} INFO - Started process (PID=11605) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:40:49.007+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:40:49.009+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:40:49.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:40:49.016+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:40:49.014+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:40:49.016+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:40:49.070+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.121 seconds
+[2026-05-18T06:41:25.640+0000] {processor.py:186} INFO - Started process (PID=12135) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:41:25.643+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:41:25.645+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:41:25.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:41:25.654+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:41:25.652+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:41:25.655+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:41:25.689+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.060 seconds
+[2026-05-18T06:42:01.584+0000] {processor.py:186} INFO - Started process (PID=12291) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:42:01.587+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:42:01.589+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:01.589+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:42:01.596+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:01.594+0000] {dagbag.py:387} ERROR - Failed to import: /home/noelsdavid/airflow/dags/csv_etl_dag.py
+Traceback (most recent call last):
+  File "/home/noelsdavid/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/noelsdavid/airflow/dags/csv_etl_dag.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2026-05-18T06:42:01.597+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:42:01.632+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.057 seconds
+[2026-05-18T06:42:38.238+0000] {processor.py:186} INFO - Started process (PID=12500) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:42:38.240+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:42:38.243+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:38.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:42:38.905+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:42:39.039+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:39.038+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:csv_etl_dag
+[2026-05-18T06:42:39.059+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:39.058+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:csv_etl_dag
+[2026-05-18T06:42:39.076+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:39.075+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:csv_etl_dag
+[2026-05-18T06:42:39.100+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:39.099+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:csv_etl_dag
+[2026-05-18T06:42:39.115+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:39.114+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:csv_etl_dag
+[2026-05-18T06:42:39.130+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:39.129+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:csv_etl_dag
+[2026-05-18T06:42:39.145+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:39.144+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:csv_etl_dag
+[2026-05-18T06:42:39.145+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:39.145+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:42:39.159+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:39.158+0000] {dag.py:3262} INFO - Creating ORM DAG for csv_etl_dag
+[2026-05-18T06:42:39.171+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:42:39.170+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-17 00:00:00+00:00, run_after=2026-05-18 00:00:00+00:00
+[2026-05-18T06:42:39.210+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.982 seconds
+[2026-05-18T06:43:14.665+0000] {processor.py:186} INFO - Started process (PID=12683) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:43:14.667+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:43:14.670+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:43:14.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:43:15.329+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:43:15.348+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:43:15.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:43:15.380+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:43:15.379+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-17 00:00:00+00:00, run_after=2026-05-18 00:00:00+00:00
+[2026-05-18T06:43:15.430+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.774 seconds
+[2026-05-18T06:44:10.796+0000] {processor.py:186} INFO - Started process (PID=13020) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:44:10.799+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:44:10.802+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:44:10.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:44:11.499+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:44:11.517+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:44:11.516+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:44:11.547+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:44:11.547+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:44:11.587+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.802 seconds
+[2026-05-18T06:44:52.259+0000] {processor.py:186} INFO - Started process (PID=13066) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:44:52.266+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:44:52.269+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:44:52.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:44:52.983+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:44:52.998+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:44:52.997+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:44:53.028+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:44:53.027+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:44:53.064+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.817 seconds
+[2026-05-18T06:45:28.379+0000] {processor.py:186} INFO - Started process (PID=13128) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:45:28.382+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:45:28.385+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:45:28.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:45:28.984+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:45:29.000+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:45:29.000+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:45:29.024+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:45:29.023+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:45:29.055+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.686 seconds
+[2026-05-18T06:46:04.844+0000] {processor.py:186} INFO - Started process (PID=13168) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:46:04.847+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:46:04.849+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:46:04.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:46:05.450+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:46:05.465+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:46:05.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:46:05.492+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:46:05.491+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:46:05.520+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.685 seconds
+[2026-05-18T06:46:39.626+0000] {processor.py:186} INFO - Started process (PID=13206) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:46:39.654+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:46:39.656+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:46:39.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:46:40.338+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:46:40.354+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:46:40.354+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:46:40.380+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:46:40.380+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:46:40.412+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.796 seconds
+[2026-05-18T06:47:13.504+0000] {processor.py:186} INFO - Started process (PID=13245) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:47:13.505+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:47:13.507+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:47:13.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:47:14.078+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:47:14.092+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:47:14.091+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:47:14.115+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:47:14.115+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:47:14.143+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.649 seconds
+[2026-05-18T06:47:45.972+0000] {processor.py:186} INFO - Started process (PID=13282) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:47:45.974+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:47:45.977+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:47:45.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:47:46.543+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:47:46.557+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:47:46.557+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:47:46.580+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:47:46.579+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:47:46.609+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.647 seconds
+[2026-05-18T06:48:18.795+0000] {processor.py:186} INFO - Started process (PID=13317) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:48:18.796+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:48:18.798+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:48:18.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:48:19.358+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:48:19.372+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:48:19.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:48:19.394+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:48:19.394+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:48:19.426+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.640 seconds
+[2026-05-18T06:48:52.253+0000] {processor.py:186} INFO - Started process (PID=13354) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:48:52.275+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:48:52.277+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:48:52.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:48:52.840+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:48:52.857+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:48:52.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:48:52.882+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:48:52.882+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:48:52.910+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.667 seconds
+[2026-05-18T06:49:23.587+0000] {processor.py:186} INFO - Started process (PID=13391) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:49:23.590+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:49:23.593+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:49:23.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:49:24.143+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:49:24.157+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:49:24.156+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:49:24.179+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:49:24.178+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:49:24.209+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.632 seconds
+[2026-05-18T06:49:56.723+0000] {processor.py:186} INFO - Started process (PID=13453) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:49:56.724+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:49:56.726+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:49:56.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:49:57.295+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:49:57.310+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:49:57.309+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:49:57.338+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:49:57.338+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:49:57.369+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.656 seconds
+[2026-05-18T06:50:31.392+0000] {processor.py:186} INFO - Started process (PID=13960) to work on /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:50:31.415+0000] {processor.py:914} INFO - Processing file /home/noelsdavid/airflow/dags/csv_etl_dag.py for tasks to queue
+[2026-05-18T06:50:31.418+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:50:31.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:50:32.030+0000] {processor.py:925} INFO - DAG(s) 'csv_etl_dag' retrieved from /home/noelsdavid/airflow/dags/csv_etl_dag.py
+[2026-05-18T06:50:32.044+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:50:32.044+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-18T06:50:32.066+0000] {logging_mixin.py:190} INFO - [2026-05-18T06:50:32.066+0000] {dag.py:4180} INFO - Setting next_dagrun for csv_etl_dag to 2026-05-18 00:00:00+00:00, run_after=2026-05-19 00:00:00+00:00
+[2026-05-18T06:50:32.099+0000] {processor.py:208} INFO - Processing /home/noelsdavid/airflow/dags/csv_etl_dag.py took 0.717 seconds
