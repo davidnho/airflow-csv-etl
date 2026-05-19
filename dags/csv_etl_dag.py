@@ -2,10 +2,16 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
 import pandas as pd
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent
 
-INPUT_FILE = "/home/noelsdavid/airflow/data/input_sales.csv"
-OUTPUT_FILE = "/home/noelsdavid/airflow/data/output_sales_cleaned.csv"
+INPUT_FILE = BASE_DIR / "../data" / "input_sales.csv"
+OUTPUT_FILE = BASE_DIR / "../data" / "output_sales_cleaned.csv"
+
+# INPUT_FILE = "input_sales.csv"
+
+# OUTPUT_FILE = "output_sales_cleaned.csv"
 
 
 def extract():
